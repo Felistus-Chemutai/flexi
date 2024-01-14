@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header*{
+    display: inline;
+}
+nav{
+    display: flex;
+
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+.drop a:hover{
+    background-color: gray;
+}
+.main{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 10px;
+    justify-content: center;
+    align-self: center;
+    background-color:white;
+
+}
+
+.acc{
+    display: grid;
+    column-gap: 10px;
+    background-color:greenyellow;
+}
+.order{
+    display: grid;
+    column-gap: 10px;
+    background-color: aqua;
+}
+h6{
+    color: blue;
+}
+p{
+    color: green;
+}
+
+        
+.dropdown a:hover {
+    background-color: #ddd;
+  }
+
+
